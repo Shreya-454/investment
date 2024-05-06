@@ -51,7 +51,7 @@ const Financial = () => {
                     <h4 className=' font-Inter text-white text-xl  leading-[24.2px] font-semibold pb-[14px] max-sm:text-center'>{card.head}</h4>
                     <p className={`font-Inter text-base text-white font-normal max-w-[259px] max-sm:mx-auto opacity-70 max-sm:text-center ${card.style}`}>{card.para}</p>
                 </div>
-                <div className=' justify-center w-1/3'><img src={card.img} alt="img" className={`${card.imgclass} max-md:absolute bottom-[2%] right-[30%] group-hover:z-[-2] `} /></div>
+                <div className=' justify-center w-1/3'><img src={card.img} alt="img" className={`${card.imgclass} max-md:absolute bottom-[2%] right-[30%] group-hover:z-[-2] relative`} /></div>
             </div>
             <img src={card.bgimg} alt="bg" className='absolute right-0 md:top-0 bottom-0  z-[-2]' width={344} height={230} />
         </div>

@@ -32,7 +32,7 @@ const carddata2 = [
 const Advisor = () => {
   const card1 = carddata1.map((data, i) => (
     <div className="w-1/2 w-100 px-3 flex justify-center" key={i}>
-      <div className="w-full max-lg:max-w-[267px] h-[304px] bg-[#1811344D] mb-6 md:mb-0 rounded-3xl border-2 border-solid border-[#AB68FF4D] p-[25px_35px_0_20px] backdrop-blur-lg relative after:w-[388.57px] after:h-[43px] after:absolute after:bg-[#AB68FF] after:opacity-20 after:-rotate-[48.99deg] overflow-hidden z-[1] after:z-[-1] after:top-[43%] after:blur-[25.7px] after:left-[-23%] hover:shadow-[0px_0px_20px_0px_#AB68FF] duration-300 ">
+      <div data-aos="zoom-in" className="w-full max-lg:max-w-[267px] h-[304px] bg-[#1811344D] mb-6 md:mb-0 rounded-3xl border-2 border-solid border-[#AB68FF4D] p-[25px_35px_0_20px] backdrop-blur-lg relative after:w-[388.57px] after:h-[43px] after:absolute after:bg-[#AB68FF] after:opacity-20 after:-rotate-[48.99deg] overflow-hidden z-[1] after:z-[-1] after:top-[43%] after:blur-[25.7px] after:left-[-23%] hover:shadow-[0px_0px_20px_0px_#AB68FF] !duration-300 ">
         <div className="rounded-full bg-[#AB68FF] w-[60px] h-[60px] shadow-[0px_0px_6px_0px_#AB68FF99] mb-6 flex justify-center items-center">
           <img src={data.img} alt="icon" />
         </div>
@@ -47,7 +47,7 @@ const Advisor = () => {
   ));
   const card2 = carddata2.map((data, i) => (
     <div className="w-1/2 w-100 px-3 flex justify-center" key={i}>
-      <div className="w-full max-lg:max-w-[267px] h-[304px] mb-6 md:mb-0 bg-[#1811344D] rounded-3xl border-2 border-solid hover:shadow-[0px_0px_20px_0px_#AB68FF] duration-300 border-[#AB68FF4D] p-[25px_35px_0_20px] backdrop-blur-lg relative after:w-[388.57px] after:h-[43px] after:absolute after:bg-[#AB68FF] after:opacity-20 after:-rotate-[48.99deg] overflow-hidden z-[1] after:z-[-1] after:top-[43%] after:blur-[25.7px] after:left-[-23%] ">
+      <div data-aos="zoom-in" className="w-full max-lg:max-w-[267px] h-[304px] mb-6 md:mb-0 bg-[#1811344D] rounded-3xl border-2 border-solid hover:shadow-[0px_0px_20px_0px_#AB68FF] !duration-300 border-[#AB68FF4D] p-[25px_35px_0_20px] backdrop-blur-lg relative after:w-[388.57px] after:h-[43px] after:absolute after:bg-[#AB68FF] after:opacity-20 after:-rotate-[48.99deg] overflow-hidden z-[1] after:z-[-1] after:top-[43%] after:blur-[25.7px] after:left-[-23%] ">
         <div className="rounded-full bg-[#AB68FF] w-[60px] h-[60px] shadow-[0px_0px_6px_0px_#AB68FF99] mb-6 flex justify-center items-center">
           <img src={data.img} alt="icon" />
         </div>
@@ -76,7 +76,7 @@ const Advisor = () => {
           <div className=" lg:w-1/2 w-full px-3 mb-6">
             <div className=" flex flex-wrap flex-row -mx-3">{card1}</div>
           </div>
-          <div className="lg:w-1/2 w-full px-3 mb-6">
+          <div className="lg:w-1/2 w-full px-3 mb-6" data-aos="fade-left">
             <h2 className=" text-white font-inter text-2xl max-sm:text-xl font-bold sm:leading-[36px] pb-4 max-lg:text-center">
               InvestGPT begins by asking you a series of questions. These
               questions cover a range of topics, including:
@@ -89,7 +89,7 @@ const Advisor = () => {
             </p>
           </div>
           <div className="lg:w-1/2 w-full px-3 flex justify-center">
-            <div className="w-full bg-[#1811344D] max-lg:max-w-[558px] mb-6 lg:mb-0 h-[304px] border-2 border-solid border-[#AB68FF4D] rounded-3xl hover:shadow-[0px_0px_20px_0px_#AB68FF] duration-300 backdrop-blur-lg p-[24px_20px_0] after:w-[620.13px] after:absolute relative z-[1] after:z-[-1] after:h-[43px] after:bg-[#AB68FF] after:-rotate-[26.57deg] after:opacity-20 after:top-[42%] after:left-[-6%] after:blur-[26.7px] overflow-hidden">
+            <div className="w-full bg-[#1811344D] max-lg:max-w-[558px] mb-6 lg:mb-0 h-[304px] border-2 border-solid border-[#AB68FF4D] rounded-3xl hover:shadow-[0px_0px_20px_0px_#AB68FF] !duration-300 backdrop-blur-lg p-[24px_20px_0] after:w-[620.13px] after:absolute relative z-[1] after:z-[-1] after:h-[43px] after:bg-[#AB68FF] after:-rotate-[26.57deg] after:opacity-20 after:top-[42%] after:left-[-6%] after:blur-[26.7px] overflow-hidden " data-aos="fade-right" >
               <div className="rounded-full bg-[#AB68FF] w-[60px] h-[60px] shadow-[0px_0px_6px_0px_#AB68FF99] mb-6 flex justify-center items-center">
                 <img src={saving} alt="icon" />
               </div>

@@ -48,7 +48,7 @@ const Highlights = () => {
   return (
     <div className="bg-[url(./assets/images/webp/Footerbg.webp)] bg-center bg-cover bg-no-repeat relative z-[1]">
       <div className="container max-w-[1164px] mx-auto 2xl:max-w-[1320px] px-3 sm:pb-[56px] pb-8">
-        <div className="w-full border-4 border-solid border-[#AB68FF] hover:shadow-[0px_0px_20px_0px_#AB68FF] duration-300 rounded-3xl bg-[#1811344D] backdrop-blur-lg md:mb-[200px] sm:mb-[100px] mb-10">
+        <div  data-aos="zoom-in" className="w-full border-4 border-solid border-[#AB68FF] hover:shadow-[0px_0px_20px_0px_#AB68FF] !duration-300 rounded-3xl bg-[#1811344D] backdrop-blur-lg md:mb-[200px] sm:mb-[100px] mb-10">
           <div className="lg:flex items-center">
             <div className="lg:w-1/2 w-full lg:border-r-4 max-lg:border-b-4 max-sm:pb-[25px] border-solid bg-[#AB68FF1A] border-[#AB68FF]">
               <table className=" w-full">
@@ -78,28 +78,28 @@ const Highlights = () => {
           </div>
         </div>
         <div className=" flex justify-center">
-          <img src={logo} alt="logo" className=" cursor-pointer" />
+          <img src={logo} alt="logo" className=" cursor-pointer"  data-aos="zoom-in" />
         </div>
         <h3 className=" text-white text-center font-Inter max-sm:text-xl text-2xl font-bold leading-[29.05px] py-4">
           Invest GPT
         </h3>
-        <p className=" text-center max-sm:text-sm text-base text-white font-Inter font-normal opacity-70 pb-[30px]">
+        <p className=" text-center max-sm:text-sm text-base text-white font-Inter font-normal opacity-70 pb-[30px]" >
           Amet consectetur ignissim{" "}
           <span className=" block">posuere suscipit neque eget velit.</span>
         </p>
-        <div className="flex justify-center gap-5">
-          <a href="https://www.facebook.com/" target="blank">
-            <div className="rounded-full sm:h-[50px] sm:w-[50px] h-10 w-10 border-white border-[1.67px] border-solid flex justify-center items-center">
+        <div className="flex justify-center gap-5">'"'
+          <a href="https://www.facebook.com/" target="blank"  data-aos="zoom-in">
+            <div className="rounded-full sm:h-[50px] sm:w-[50px] h-10 w-10 border-white border-[1.67px] border-solid flex justify-center items-center hover:scale-110 !duration-300"  >
               <Facebook />
             </div>
           </a>
-          <a href="https://twitter.com/" target="blank">
-            <div className="rounded-full sm:h-[50px] sm:w-[50px] h-10 w-10 border-white border-[1.67px] border-solid flex justify-center items-center">
+          <a href="https://twitter.com/" target="blank"  data-aos="zoom-in">
+            <div className="rounded-full sm:h-[50px] sm:w-[50px] h-10 w-10 border-white border-[1.67px] border-solid flex justify-center items-center hover:scale-110 !duration-300 ">
               <Twitter />
             </div>
           </a>
-          <a href="https://www.instagram.com/" target="blank">
-            <div className="rounded-full sm:h-[50px] sm:w-[50px] h-10 w-10 border-white border-[1.67px] border-solid flex justify-center items-center">
+          <a href="https://www.instagram.com/" target="blank"  data-aos="zoom-in">
+            <div className="rounded-full sm:h-[50px] sm:w-[50px] h-10 w-10 border-white border-[1.67px] border-solid flex justify-center items-center hover:scale-110 !duration-300">
               <Insta />
             </div>
           </a>

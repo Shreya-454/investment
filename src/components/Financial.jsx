@@ -45,7 +45,7 @@ const data1 = [
 const Financial = () => {
     const datacard1 = data1.map((card,i) =>(
         <div className="lg:w-1/2 w-full px-3 mb-6 flex justify-center" key={i}>
-        <div className={`w-full max-lg:max-w-[558px] rounded-3xl bg-[#110B26] before:top-0 before:h-full before:bottom-0 before:bg-[#AB68FF] before:duration-500 before:left-0 before:right-[200%] hover:before:right-0  before:z-[-1] before:absolute border-2 border-solid z-[1] after:z-[2] h-[450px] md:h-[230px] border-[#AB68FF4D] p-[29px_20px_29.44px_0px] after:w-[12px] overflow-hidden border-l-[#AB68FF]  after:bg-[#AB68FF] after:absolute relative after:left-[-2px] after:top-0 after:bottom-0 ${card.class}`}>
+        <div className={`w-full max-lg:max-w-[558px] rounded-3xl bg-[#110B26] before:top-0 before:h-full before:bottom-0 before:bg-[#AB68FF] before:!duration-500 before:left-0 before:right-[200%] hover:before:right-0  before:z-[-1] before:absolute border-2 border-solid z-[1] after:z-[2] h-[450px] md:h-[230px] border-[#AB68FF4D] p-[29px_20px_29.44px_0px] after:w-[12px] overflow-hidden border-l-[#AB68FF]  after:bg-[#AB68FF] after:absolute relative after:left-[-2px] after:top-0 after:bottom-0 ${card.class}`} data-aos="zoom-in">
             <div className="sm:flex justify-between items-center">
                 <div className='pl-7'>
                     <h4 className=' font-Inter text-white text-xl  leading-[24.2px] font-semibold pb-[14px] max-sm:text-center'>{card.head}</h4>

@@ -6,7 +6,8 @@ import Highlights from './components/Highlights';
 import Preloader from './components/Preloader';
 import Trading from './components/Trading';
 import BackToTop from './components/BackToTop';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
   const [data, setdata] = useState(false);
   useEffect(() => {
@@ -14,6 +15,13 @@ function App() {
     setTimeout(() => {
       setdata(false);
     }, 2000);
+  }, []);
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 2000,
+      easing: "linear",
+    });
   }, []);
   return (
     <div>

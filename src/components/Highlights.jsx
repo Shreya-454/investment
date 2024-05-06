@@ -46,7 +46,7 @@ const Highlights = () => {
   const Dates = new Date();
   const year = Dates.getFullYear();
   return (
-    <div className="bg-[url(./assets/images/webp/Footerbg.webp)] bg-center bg-cover bg-no-repeat relative z-[1]">
+    <div className="bg-[url(./assets/images/webp/Footerbg.webp)] bg-fixed bg-center bg-cover bg-no-repeat relative z-[1]">
       <div className="container max-w-[1164px] mx-auto 2xl:max-w-[1320px] px-3 sm:pb-[56px] pb-8">
         <div  data-aos="zoom-in" className="w-full border-4 border-solid border-[#AB68FF] hover:shadow-[0px_0px_20px_0px_#AB68FF] !duration-300 rounded-3xl bg-[#1811344D] backdrop-blur-lg md:mb-[200px] sm:mb-[100px] mb-10">
           <div className="lg:flex items-center">

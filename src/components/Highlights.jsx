@@ -87,7 +87,7 @@ const Highlights = () => {
           Amet consectetur ignissim{" "}
           <span className=" block">posuere suscipit neque eget velit.</span>
         </p>
-        <div className="flex justify-center gap-5">'"'
+        <div className="flex justify-center gap-5">
           <a href="https://www.facebook.com/" target="blank"  data-aos="zoom-in">
             <div className="rounded-full sm:h-[50px] sm:w-[50px] h-10 w-10 border-white border-[1.67px] border-solid flex justify-center items-center hover:scale-110 !duration-300"  >
               <Facebook />

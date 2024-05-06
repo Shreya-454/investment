@@ -30,7 +30,7 @@ function App() {
         <Preloader />
       </div>
     ) : (
-    <div className=' bg-black'>
+    <div className=' bg-black overflow-x-clip'>
       <Advisor/>
       <Financial/>
       <Trading/>

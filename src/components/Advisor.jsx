@@ -89,7 +89,7 @@ const Advisor = () => {
             </p>
           </div>
           <div className="lg:w-1/2 w-full px-3 flex justify-center">
-            <div className="w-full bg-[#1811344D] max-lg:max-w-[558px] mb-6 lg:mb-0 h-[304px] border-2 border-solid border-[#AB68FF4D] rounded-3xl hover:shadow-[0px_0px_20px_0px_#AB68FF] !duration-300 backdrop-blur-lg p-[24px_20px_0] after:w-[620.13px] after:absolute relative z-[1] after:z-[-1] after:h-[43px] after:bg-[#AB68FF] after:-rotate-[26.57deg] after:opacity-20 after:top-[42%] after:left-[-6%] after:blur-[26.7px] overflow-hidden " data-aos="fade-right" >
+            <div className="w-full bg-[#1811344D] max-lg:max-w-[558px] mb-6 lg:mb-0 sm:h-[304px] max-sm:pb-5 border-2 border-solid border-[#AB68FF4D] rounded-3xl hover:shadow-[0px_0px_20px_0px_#AB68FF] !duration-300 backdrop-blur-lg p-[24px_20px_0] after:w-[620.13px] after:absolute relative z-[1] after:z-[-1] after:h-[43px] after:bg-[#AB68FF] after:-rotate-[26.57deg] after:opacity-20 after:top-[42%] after:left-[-6%] after:blur-[26.7px] overflow-hidden " data-aos="fade-right" >
               <div className="rounded-full bg-[#AB68FF] w-[60px] h-[60px] shadow-[0px_0px_6px_0px_#AB68FF99] mb-6 flex justify-center items-center">
                 <img src={saving} alt="icon" />
               </div>

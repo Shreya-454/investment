@@ -58,7 +58,7 @@ const Financial = () => {
                     </div>
     ))
   return (
-    <div className=' bg-[url(./assets/images/webp/financialbg.webp)] bg-fixed bg-cover bg-center bg-no-repeat md:pt-[200px] md:pb-[154px] sm:py-[100px] py-10 relative overflow-x-clip z-[1]'>
+    <div className=' bg-[url(./assets/images/webp/financialbg.webp)] bg-fixed bg-cover bg-center bg-no-repeat md:pt-[200px] md:pb-[154px] sm:py-[100px] py-10 relative overflow-x-clip z-[2]'>
         <img src={lines1} alt="line" className=' absolute bottom-0 top-0 right-0' />
         <div className="w-[329px] h-[330px] bg-[#AB68FF] rounded-full opacity-30 absolute right-[-4%] top-[32%] blur-[150px]"></div>
       <div className=' container max-w-[1164px] 2xl:max-w-[1320px] mx-auto px-3'>

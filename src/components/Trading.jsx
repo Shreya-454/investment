@@ -43,7 +43,7 @@ const Trading = () => {
    <Button text="Register for Free"/>
 </div>
 </div>
-<div className="lg:w-1/2 w-full px-3 flex justify-center items-center max-sm:mb-10"  data-aos="zoom-in">
+<div className="lg:w-1/2 w-full px-3 flex justify-center items-center max-sm:mb-10" >
 <img src={graphic} alt="img" />
 </div>
 </div>

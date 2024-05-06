@@ -31,8 +31,8 @@ const carddata2 = [
 ]
 const Advisor = () => {
   const card1 = carddata1.map((data, i) => (
-    <div className="sm:w-1/2 w-full px-3 flex justify-center" key={i}>
-      <div className="w-full max-lg:max-w-[267px] h-[304px] bg-[#1811344D] mb-6 md:mb-0 rounded-3xl border-2 border-solid border-[#AB68FF4D] p-[25px_35px_0_20px] backdrop-blur-lg relative after:w-[388.57px] after:h-[43px] after:absolute after:bg-[#AB68FF] after:opacity-20 after:-rotate-[48.99deg] overflow-hidden z-[1] after:z-[-1] after:top-[43%] after:blur-[25.7px] after:left-[-23%] ">
+    <div className="w-1/2 w-100 px-3 flex justify-center" key={i}>
+      <div className="w-full max-lg:max-w-[267px] h-[304px] bg-[#1811344D] mb-6 md:mb-0 rounded-3xl border-2 border-solid border-[#AB68FF4D] p-[25px_35px_0_20px] backdrop-blur-lg relative after:w-[388.57px] after:h-[43px] after:absolute after:bg-[#AB68FF] after:opacity-20 after:-rotate-[48.99deg] overflow-hidden z-[1] after:z-[-1] after:top-[43%] after:blur-[25.7px] after:left-[-23%] hover:shadow-[0px_0px_20px_0px_#AB68FF] duration-300 ">
         <div className="rounded-full bg-[#AB68FF] w-[60px] h-[60px] shadow-[0px_0px_6px_0px_#AB68FF99] mb-6 flex justify-center items-center">
           <img src={data.img} alt="icon" />
         </div>
@@ -46,8 +46,8 @@ const Advisor = () => {
     </div>
   ));
   const card2 = carddata2.map((data, i) => (
-    <div className="sm:w-1/2 w-full px-3 flex justify-center" key={i}>
-      <div className="w-full max-lg:max-w-[267px] h-[304px] mb-6 md:mb-0 bg-[#1811344D] rounded-3xl border-2 border-solid border-[#AB68FF4D] p-[25px_35px_0_20px] backdrop-blur-lg relative after:w-[388.57px] after:h-[43px] after:absolute after:bg-[#AB68FF] after:opacity-20 after:-rotate-[48.99deg] overflow-hidden z-[1] after:z-[-1] after:top-[43%] after:blur-[25.7px] after:left-[-23%] ">
+    <div className="w-1/2 w-100 px-3 flex justify-center" key={i}>
+      <div className="w-full max-lg:max-w-[267px] h-[304px] mb-6 md:mb-0 bg-[#1811344D] rounded-3xl border-2 border-solid hover:shadow-[0px_0px_20px_0px_#AB68FF] duration-300 border-[#AB68FF4D] p-[25px_35px_0_20px] backdrop-blur-lg relative after:w-[388.57px] after:h-[43px] after:absolute after:bg-[#AB68FF] after:opacity-20 after:-rotate-[48.99deg] overflow-hidden z-[1] after:z-[-1] after:top-[43%] after:blur-[25.7px] after:left-[-23%] ">
         <div className="rounded-full bg-[#AB68FF] w-[60px] h-[60px] shadow-[0px_0px_6px_0px_#AB68FF99] mb-6 flex justify-center items-center">
           <img src={data.img} alt="icon" />
         </div>
@@ -61,12 +61,12 @@ const Advisor = () => {
     </div>
   ));
   return (
-    <div className=" pt-[212px] pb-6 relative z-[1] overflow-x-clip">
-<img src={headellipse} alt="ellipse" className=" absolute left-0 bottom-[-4%] z-[1]" />
+    <div className=" md:pt-[212px] sm:pt-[100px] pt-10 pb-6 relative z-[1] overflow-x-clip">
+<img src={headellipse} alt="ellipse" className=" absolute left-0 bottom-[-4%] max-sm:bottom-0 z-[1]" />
 <div className="w-[329px] h-[330px] bg-[#AB68FF] rounded-full opacity-30 blur-[150px] absolute left-[-3%] z-[-1]"></div>
 <div className="w-[298px] h-[298px] bg-[#AB68FF] rounded-full opacity-40 absolute bottom-[-2%] right-[-3%] blur-[200px]"></div>
       <div className=" container max-w-[1164px] 2xl:max-w-[1320px] mx-auto px-3">
-        <h1 className=" font-Inter text-white text-[40px] text-center leading-[48.41px] font-bold pb-[60px]">
+        <h1 className=" font-Inter text-white text-[40px] max-sm:text-3xl text-center sm:leading-[48.41px] font-bold pb-[60px] max-sm:pb-8">
           Your Personal{" "}
           <span className=" font-extrabold text-[#AB68FF]">
             Investment Advisor
@@ -77,11 +77,11 @@ const Advisor = () => {
             <div className=" flex flex-wrap flex-row -mx-3">{card1}</div>
           </div>
           <div className="lg:w-1/2 w-full px-3 mb-6">
-            <h2 className=" text-white font-inter text-2xl font-bold leading-[36px] pb-4">
+            <h2 className=" text-white font-inter text-2xl max-sm:text-xl font-bold sm:leading-[36px] pb-4 max-lg:text-center">
               InvestGPT begins by asking you a series of questions. These
               questions cover a range of topics, including:
             </h2>
-            <p className=" font-Inter text-white max-sm:text-sm text-base font-normal opacity-70">
+            <p className=" font-Inter text-white max-sm:text-sm text-base font-normal opacity-70 max-lg:text-center">
               InvestGPT is your trusted companion in the world of finance. By
               understanding your unique financial situation and goals, InvestGPT
               provides tailored advice and insights to help you make informed
@@ -89,7 +89,7 @@ const Advisor = () => {
             </p>
           </div>
           <div className="lg:w-1/2 w-full px-3 flex justify-center">
-            <div className="w-full bg-[#1811344D] max-lg:max-w-[558px] mb-6 lg:mb-0 h-[304px] border-2 border-solid border-[#AB68FF4D] rounded-3xl backdrop-blur-lg p-[24px_20px_0] after:w-[620.13px] after:absolute relative z-[1] after:z-[-1] after:h-[43px] after:bg-[#AB68FF] after:-rotate-[26.57deg] after:opacity-20 after:top-[42%] after:left-[-6%] after:blur-[26.7px] overflow-hidden">
+            <div className="w-full bg-[#1811344D] max-lg:max-w-[558px] mb-6 lg:mb-0 h-[304px] border-2 border-solid border-[#AB68FF4D] rounded-3xl hover:shadow-[0px_0px_20px_0px_#AB68FF] duration-300 backdrop-blur-lg p-[24px_20px_0] after:w-[620.13px] after:absolute relative z-[1] after:z-[-1] after:h-[43px] after:bg-[#AB68FF] after:-rotate-[26.57deg] after:opacity-20 after:top-[42%] after:left-[-6%] after:blur-[26.7px] overflow-hidden">
               <div className="rounded-full bg-[#AB68FF] w-[60px] h-[60px] shadow-[0px_0px_6px_0px_#AB68FF99] mb-6 flex justify-center items-center">
                 <img src={saving} alt="icon" />
               </div>

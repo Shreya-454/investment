@@ -1,17 +1,36 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 import Advisor from './components/Advisor';
 import Financial from './components/Financial';
 import Highlights from './components/Highlights';
+import Preloader from './components/Preloader';
 import Trading from './components/Trading';
+import BackToTop from './components/BackToTop';
 
 function App() {
+  const [data, setdata] = useState(false);
+  useEffect(() => {
+    setdata(true);
+    setTimeout(() => {
+      setdata(false);
+    }, 2000);
+  }, []);
   return (
+    <div>
+    {data ? (
+      <div>
+        <Preloader />
+      </div>
+    ) : (
     <div className=' bg-black'>
       <Advisor/>
       <Financial/>
       <Trading/>
       <Highlights/>
+      <BackToTop/>
     </div>
+       )}
+       </div>
   );
 }
 

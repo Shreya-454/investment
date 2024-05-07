@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     AOS.init({
       once: true,
-      duration: 2000,
+      duration: 1000,
       easing: "linear",
     });
   }, []);
